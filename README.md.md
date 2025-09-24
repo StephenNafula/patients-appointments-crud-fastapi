@@ -1,14 +1,14 @@
-# 🏥 Patients & Appointments CRUD API (FastAPI) — Single File Version
+#  Patients & Appointments CRUD API (FastAPI) — Single File Version
 
 This is a minimal **single-file FastAPI application** that provides CRUD operations for **Patients** and their **Appointments** using SQLite and SQLAlchemy.
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone the repository or copy the `main.py` file
+###  Clone the repository or copy the `main.py` file
 
-### 2️⃣ Create a virtual environment
+###  Create a virtual environment
 ```bash
 python -m venv venv
 # Activate it
@@ -16,12 +16,12 @@ source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
 
-### 3️⃣ Install dependencies
+###  Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the application
+###  Run the application
 ```bash
 uvicorn main:app --reload
 ```
@@ -33,16 +33,16 @@ The app will start at: **http://127.0.0.1:8000**
 
 ---
 
-## 📌 API Endpoints
+##  API Endpoints
 
-### 👤 Patients
+###  Patients
 - `POST /patients/` → Create a patient
 - `GET /patients/` → List all patients
 - `GET /patients/{id}` → Get patient by ID
 - `PUT /patients/{id}` → Update patient
 - `DELETE /patients/{id}` → Delete patient
 
-### 📅 Appointments
+###  Appointments
 - `POST /appointments/` → Create an appointment
 - `GET /appointments/` → List all appointments
 - `GET /appointments/{id}` → Get appointment by ID
@@ -51,7 +51,7 @@ The app will start at: **http://127.0.0.1:8000**
 
 ---
 
-## 🛠 Example Requests (cURL)
+##  Example Requests (cURL)
 
 Create a patient:
 ```bash
@@ -69,7 +69,7 @@ curl -X POST "http://127.0.0.1:8000/appointments/" \
 
 ---
 
-## 🗄️ Project Files
+##  Project Files
 ```
 main.py             # FastAPI single-file app
 requirements.txt    # Dependencies
@@ -78,6 +78,4 @@ README.md           # Documentation
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License**.
 
